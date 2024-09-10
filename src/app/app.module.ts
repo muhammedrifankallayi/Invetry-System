@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DefaultLayoutComponent } from './default-layout/default-layout.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {MeterialModule} from './meterial/meterial.module'
 
 @NgModule({
   declarations: [
@@ -14,7 +16,10 @@ import { DefaultLayoutComponent } from './default-layout/default-layout.componen
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    NgbModule,
+    MeterialModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

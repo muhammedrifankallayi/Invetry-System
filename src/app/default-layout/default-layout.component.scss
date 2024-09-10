@@ -1,0 +1,52 @@
+.navbar-brand{
+    font-weight: 700;
+    span{
+        color: #c2185b;
+    }
+}
+
+.msg-alerts{
+        width: 100%;
+        text-align: center;
+        font-weight: 500;
+        font-size: 15px;
+        background: #c2185b;
+        color: white;
+}
+
+.section-one{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    .sec-left{
+        width: 65%;
+
+    }
+    .sec-right{
+        width: 35%;
+       h1{
+        color: #c2185b;
+       }
+       background: #f3eeee;
+       border-radius: 5px;
+
+    }
+}
+
+.main-box{
+    width: 100%;
+    padding: 0px 15px;
+}
+label{
+    padding-left: 4px;
+    font-weight: 500;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+.form-control{
+    outline: none;
+
+}
