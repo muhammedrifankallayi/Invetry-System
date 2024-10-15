@@ -9,11 +9,15 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {MeterialModule} from './meterial/meterial.module'
 import { MAT_FORM_FIELD_DEFAULT_OPTIONS } from '@angular/material/form-field';
 import { PopupsModule } from './popups/popups.module';
+import { RegisterFormComponent } from './register-form/register-form.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DefaultLayoutComponent
+    DefaultLayoutComponent,
+    RegisterFormComponent
   ],
   imports: [
     BrowserModule,
@@ -21,7 +25,9 @@ import { PopupsModule } from './popups/popups.module';
     BrowserAnimationsModule,
     NgbModule,
     MeterialModule,
-    PopupsModule
+    PopupsModule,
+    HttpClientModule,
+    ReactiveFormsModule
     
     
   ],

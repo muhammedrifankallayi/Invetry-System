@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { ApplyFormPopupComponent } from '../popups/apply-form-popup/apply-form-popup.component';
+import { RegisterFormComponent } from '../register-form/register-form.component';
 
 @Component({
   selector: 'app-default-layout',
@@ -42,4 +43,16 @@ this.dialog.open(ApplyFormPopupComponent,{
       
     }
   }
+
+
+openRegisterFrom(){
+  this.dialog.open(
+    RegisterFormComponent,
+    {
+      disableClose:true,
+      width:"400px"
+    }
+  )
+}
+
 }

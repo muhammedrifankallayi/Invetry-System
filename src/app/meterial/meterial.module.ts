@@ -6,6 +6,7 @@ import {MatDialogModule} from "@angular/material/dialog"
 import {MatFormFieldModule} from "@angular/material/form-field"
 import {MatInputModule} from "@angular/material/input"
 import {MatSelectModule} from "@angular/material/select"
+import {MatExpansionModule} from "@angular/material/expansion"
 
 
 
@@ -20,7 +21,8 @@ import {MatSelectModule} from "@angular/material/select"
     MatDialogModule,
     MatFormFieldModule,
     MatSelectModule,
-    MatInputModule
+    MatInputModule,
+    MatExpansionModule
   ],
   exports:[
     MatButtonModule,
@@ -28,7 +30,8 @@ import {MatSelectModule} from "@angular/material/select"
     MatDialogModule,
     MatFormFieldModule,
     MatSelectModule,
-    MatInputModule
+    MatInputModule,
+    MatExpansionModule
   ]
 })
 export class MeterialModule { }

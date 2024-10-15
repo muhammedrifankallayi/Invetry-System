@@ -112,4 +112,26 @@ label{
   // course list section
 
 
+  mat-expansion-panel {
+    background-color: rgb(228, 225, 225);
+    border: 1px solid #cccccc; /* Optional: to add a border with theme color */
+    color: black !important;
+  }
+  mat-panel-title{
+    color: black;
+  }
+  mat-expansion-panel-header {
+    background-color: #ffffff; /* The theme color */
+    color: black !important; /* Text color for better contrast */
+  }
+  
+
+  
+  .mat-expansion-panel-body {
+    color: black; /* Text color inside the panel */
+    padding: 16px; /* Add padding for better readability */
+  }
+  
+
+
   
